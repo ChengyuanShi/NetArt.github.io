@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding:0;
+  max-width: 100%;
+}
+
+#interactive {
+  width: 100vw;
+  height:100vh;
+  position: fixed;
+  z-index: -999;
+}
+
+h1 {
+  color: #fff;
+  padding: 45px;
+}
+
+ul {
+color: #fff;
+float: right;
+margin-top: -90px;
+}
+
+ul li {
+  float: left;
+  padding: 20px;
+  list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  max-width: 100%;
+}
+
+
+h1{
+
+color:lightyellow;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+padding:20px;
+border: 6px;
+
+}
+#sss {
+margin:center;
+  width:50%;
+
+
+}
+#click {
+ font-weight: bold;
+ font-size: 2em;
+ position:center;
+ cursor: pointer;
+}
+#mv {
+  visibility: hidden;
+}
+
+#tbc{
+  margin-left: 1px;
+  margin-top: 5px;
+  width:20%;
+
+}
+#catmv{
+  visibility: hidden;
+  margin-top: 20px;}

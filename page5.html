@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Net.Art Narrative</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="three.r95.min.js"></script>
+  <script src="vanta.net.min.js"></script>
+  <style>
+    #interactive {
+      width: 100vw;
+      height:100vh;
+      position: fixed;
+      z-index: -999;
+    }
+  </style>
+
 </head>
 <body>
-  <h1 id="click" onclick="showmv()">Click right cat back to first page.</h1>
-<center>
-<a href="index.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="page6.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="index.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="page6.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="index.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="page6.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="index.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-<a href="page6.html">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-<img src="img/Rcat.gif" alt="gif" id="tbc">
-</a>
-
-
+  <div id="interactive"></div>
+  <center>
+  <h1>Click right cat back to first page.</h1>
+  <a href="index.html">
+  <img src="img/Rcat.gif" alt="gif" id="tbc">
+  <a href="page6.html">
+  <img src="img/Rcat.gif" alt="gif" id="tbc">
+    <img src="img/Rcat.gif" alt="gif" id="tbc">
 </center>
+
+<script>
+  VANTA.NET({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    points: 20.00,
+    maxDistance: 35.00,
+    spacing: 20.00,
+    showDots: false
+  })
+  </script>
 </body>
 </html>
